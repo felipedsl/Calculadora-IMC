@@ -2,7 +2,7 @@ A = float(input("Qual a sua altura em m? "))
 P = int(input("Qual o seu peso em kg? "))
 idoso = str.lower(input("Você é idoso? Responda s para sim e n para não: "))
 
-def eh_idoso (idoso):# Função para definir se usuário é idoso ou não
+def eh_idoso(idoso):# Função para definir se usuário é idoso ou não
     if idoso == "s":
         return True
     elif idoso == "n":
